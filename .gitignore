@@ -1,0 +1,13 @@
+
+InternTest-Backend/node_modules/
+InternTest-Backend/.env
+
+InternTest-Frontend/node_modules/
+InternTest-Frontend/.env
+InternTest-Frontend/build/
+InternTest-Frontend/dist/
+
+
+.DS_Store
+Thumbs.db
+*.log

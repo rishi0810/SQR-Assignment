@@ -1,0 +1,37 @@
+{
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.1",
+    "@types/node": "^22.14.1",
+    "prisma": "6.6.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  },
+  "name": "interntest-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts"
+  },
+  "keywords": [],
+  "author": "Rishi Raj",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "6.6.0",
+    "@types/argon2": "^0.15.4",
+    "@types/cookie-parser": "^1.4.8",
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^8.2.3",
+    "@types/express": "^5.0.1",
+    "@types/jsonwebtoken": "^9.0.9",
+    "argon2": "^0.41.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "ts-node-dev": "^2.0.0"
+  }
+}
