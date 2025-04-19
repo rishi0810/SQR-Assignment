@@ -26,8 +26,8 @@ The Backend for this form using prisma for database ORM and MongoDB Atlas as a c
 
 ```bash
 git clone 
-cd ./InternTest-Backend
-npm install 
+cd ./SQR-Assignment/InternTest-Backend
+pnpm install 
 ```
 2. **Configure .env file**
 
@@ -38,7 +38,7 @@ JWT_SECRET = your_jwt_secret
 
 3.  **Run the project**
 ```bash
-   npm run dev
+   pnpm run dev
 ```
 
 ## Routes
@@ -111,12 +111,12 @@ The frontend login form (`./InternTest-Frontend/src`) uses Zod for schema defini
 
 ```bash
 git clone 
-cd ./InternTest-Frontend
-npm install 
+cd ./SQR-Assignment/InternTest-Frontend
+pnpm install 
 ```
 2.  **Run the project**
 ```bash
-   npm run dev
+   pnpm run dev
 ```
 - **Form Component:** Uses `useForm` with `zodResolver` to validate input against the schema.
 
